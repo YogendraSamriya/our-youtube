@@ -1,0 +1,56 @@
+
+.navbar {
+  height: 60px;
+  background: rgba(32, 32, 32, 0.85);
+  backdrop-filter: blur(8px);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 24px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  border-bottom: 1px solid #2a2a2a;
+}
+
+.logo {
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+.search-bar {
+  width: 40%;
+  padding: 9px 15px;
+  border-radius: 25px;
+  border: 1px solid #333;
+  background: #121212;
+  color: white;
+}
+
+.search-bar:focus {
+  border-color: var(--accent);
+  outline: none;
+}
+
+.nav-actions button {
+  margin-left: 12px;
+  padding: 8px 16px;
+  border-radius: 20px;
+  border: none;
+  background: #2a2a2a;
+  color: white;
+}
+
+.nav-actions button:hover {
+  background: var(--accent);
+}
+
+.menu-btn {
+  font-size: 20px;
+  margin-right: 15px;
+  background: none;
+  border: none;
+  color: white;
+}
+
