@@ -33,19 +33,6 @@
   outline: none;
 }
 
-.nav-actions button {
-  margin-left: 12px;
-  padding: 8px 16px;
-  border-radius: 20px;
-  border: none;
-  background: #2a2a2a;
-  color: white;
-}
-
-.nav-actions button:hover {
-  background: var(--accent);
-}
-
 .menu-btn {
   font-size: 20px;
   margin-right: 15px;
@@ -54,3 +41,139 @@
   color: white;
 }
 
+/*********New Searchbar and mic*********/
+/* Search Container */
+.search-container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  max-width: 600px;
+  background: #121212;
+  border: 1px solid #333;
+  border-radius: 30px;
+  overflow: hidden;
+}
+
+/* Input */
+.search-bar {
+  flex: 1;
+  padding: 10px 15px;
+  border: none;
+  background: transparent;
+  color: white;
+  font-size: 14px;
+}
+
+.search-bar:focus {
+  outline: none;
+}
+
+/* Search Button */
+.search-btn {
+  width: 60px;
+  height: 40px;
+  border: none;
+  background: #1f1f1f;
+  color: #aaa;
+  cursor: pointer;
+  border-left: 1px solid #333;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.search-btn:hover {
+  background: #2a2a2a;
+  color: white;
+}
+
+/* Mic Button */
+.mic-btn {
+  margin-left: 4px;
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  border: none;
+  background: #1f1f1f;
+  color: #aaa;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mic-btn:hover {
+  background: #2a2a2a;
+  color: white;
+}
+
+.nav-center {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  flex: 1;                 /* allow it to take available space */
+  justify-content: center; /* keep it centered */
+}
+
+.left {
+  display: flex;
+  align-items: center;
+  gap: 6px;   /* control space here */
+}
+
+/********* New Nav Actions *********/
+
+.nav-actions {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+/* Create Button */
+.create-btn {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 14px;
+  border-radius: 20px;
+  border: none;
+  background: #2a2a2a;
+  color: white;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.create-btn:hover {
+  background: #3a3a3a;
+}
+
+/* Icon Buttons */
+.icon-btn {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: none;
+  background: #1f1f1f;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.icon-btn:hover {
+  background: #2a2a2a;
+}
+
+/* Notification Badge */
+.badge {
+  position: absolute;
+  top: 4px;
+  right: 4px;
+  background: red;
+  color: white;
+  font-size: 10px;
+  padding: 2px 5px;
+  border-radius: 10px;
+}
