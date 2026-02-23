@@ -9,7 +9,7 @@ import Channel from "./pages/Channel"
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/our-youtube">
       <Routes>
         <Route path="/" element={<Layout><Home /></Layout>} />
         <Route path="/watch/:id" element={<Layout><Watch /></Layout>} />
