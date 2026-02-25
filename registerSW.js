@@ -1,1 +1,0 @@
-if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('/our-youtube/sw.js', { scope: '/our-youtube/' })})}
